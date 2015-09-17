@@ -11,7 +11,7 @@ Simple node deploy tool
 
 
 ```
-config:
+ssh:
   key: /path/to/key
 
 servers:
