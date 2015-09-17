@@ -5,6 +5,6 @@ describe('Parser', function() {
   it('Correct config parsed', function () {
     var config = parser.parseConfig('test/configs/default.yml');
     config.should.be.an.Object;
-    config.should.have.properties('config', 'servers', 'pre_deploy', 'pre_deploy_each', 'deploy', 'post_deploy');
+    config.should.have.properties('ssh', 'servers', 'pre_deploy', 'pre_deploy_each', 'deploy', 'post_deploy');
   });
 });

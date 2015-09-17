@@ -1,4 +1,4 @@
-config:
+ssh:
   key: /path/to/key
 
 servers:
