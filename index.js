@@ -1,3 +1,1 @@
-import * as lib from './lib';
-
-export default lib;
+module.exports = require('./lib');

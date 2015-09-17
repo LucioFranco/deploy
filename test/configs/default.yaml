@@ -1,16 +1,3 @@
-# deploy
-Simple node deploy tool
-
-# The Idea
-
-* easily orchestrate deployments of node applications
-* run all of it through ssh
-* all through yaml
-* use node 0.12 spawnSync
-* ability to run one command on all remote servers with ease
-
-
-```
 config:
   key: /path/to/key
 
@@ -37,5 +24,3 @@ deploy:
 # This one is run on the depolyer
 post_deploy:
   - echo "Done depolying!"
-
-```

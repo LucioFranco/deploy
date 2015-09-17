@@ -4,7 +4,7 @@
   "description": "Deploy tool for nodejs applications",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test/**.test.js"
   },
   "repository": {
     "type": "git",
@@ -15,10 +15,19 @@
     "production",
     "tool"
   ],
+  "engines": {
+    "node": ">4.0"
+  },
   "author": "Lucio Franco",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LucioFranco/deploy/issues"
   },
-  "homepage": "https://github.com/LucioFranco/deploy#readme"
+  "homepage": "https://github.com/LucioFranco/deploy#readme",
+  "dependencies": {
+    "js-yaml": "^3.4.2"
+  },
+  "devDependencies": {
+    "should": "^7.1.0"
+  }
 }
